@@ -1,0 +1,68 @@
+.App-header {
+  background-color: #222;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.aboutLink {
+  display: inline;
+  color: white;
+}
+
+.App-itemList {
+  grid-area: itemlist;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemCard {
+  width: 250px;
+  text-align: center;
+  border: 1px solid black;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemCard img{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.itemCard button {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.App-shoppingCart {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.App-footer {
+  background-color: #222;
+  height: 75px;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}
+
+.app-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.App {
+  width: 80%;
+  margin: 0 auto;
+}
+
